@@ -1,0 +1,67 @@
+
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+.img-thumbnail {
+    display: inline-block;
+    position:relative;
+    cursor:pointer;
+}
+
+.img-thumbnail img {
+    height: 170px;
+
+}
+
+.ativo:before {
+    color: #ffffff;
+    font-size: 1.0em;
+    width: 100%;
+    height: 172px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    background: #009578;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    content: "ATIVA";
+    vertical-align: center;
+    left: 0;
+    top: 0;
+    right: 0;
+
+  
+}
+ .imgBox
+    {
+      height: 170px;
+    }
+    .imgBox:hover
+    {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
